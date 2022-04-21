@@ -30,8 +30,8 @@ function csvtojson(csv) {
     const fieldName = toCamelCase(data[0].split(';'));
 
     const jsonArray = [];
-
-    data.slice(1).forEach(data => {
+    const lastElement = data.length - 1;
+    data.slice(1, lastElement).forEach(data => {
         const object = {};
         const results = data.split(';');
         results.forEach((result, index) => {
