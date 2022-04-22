@@ -15,3 +15,11 @@ El JSON de respuesta puede venir en el formato que estimes conveniente.
   - Script para el caso particular
 - Lenguaje: El que más te guste
 - Plazo de Entrega: Indefinido, iremos entrevistando a los que van terminando primero.
+
+## Comandos de ejecución
+
+- Correr el servicio:
+  - ```npm install```
+  - ```npm start```
+- Correr los tests:
+  - ```npm test```
