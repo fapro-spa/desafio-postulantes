@@ -1,3 +1,14 @@
+Esta es una resolucion del desafio de Fapro
+
+## Iniciar el proyecto con
+    npm install
+    npm start
+
+Desarrollado por Luis Ricardo Lozada R.
+Correo: luis.lozad@gmail.com
+
+---------------------------------------
+
 # Desafio Postulantes
 
 Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.
