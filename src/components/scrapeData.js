@@ -1,6 +1,6 @@
 import puppeteer from 'puppeteer'
 
-const scrapeData = async (url, handleDate) => {
+const scrapeData = async (url, handleData) => {
 	const browser = await puppeteer.launch()
 	const page = await browser.newPage()
 
@@ -10,7 +10,7 @@ const scrapeData = async (url, handleDate) => {
 
 	return new Promise(async (resolve, reject) => {
 		try {
-			const data = await handleDate(page);
+			const data = await handleData(page);
 			resolve(data)
 			await browser.close()
 		} catch(err) {
