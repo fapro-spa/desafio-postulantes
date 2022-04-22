@@ -15,3 +15,10 @@ El JSON de respuesta puede venir en el formato que estimes conveniente.
   - Script para el caso particular
 - Lenguaje: El que más te guste
 - Plazo de Entrega: Indefinido, iremos entrevistando a los que van terminando primero.
+
+
+
+# Codigo basado en el usuario KlissmanGranados pero corregido y ordenado por alesandroo92
+
+Me base en un codigo creado ya que aun no poseo fuertes conocimientos en web scraping, pero al
+observar la sintaxis me fue mas facil corregirla y ordenarla.
