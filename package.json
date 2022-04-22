@@ -1,0 +1,19 @@
+{
+  "name": "desafiofrapo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "prestart": "npx swc src -d dist",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.171",
+    "fs-extra": "^10.1.0",
+    "puppeteer": "^13.6.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+API
+dist
+/dist.map
+/package-lock.json
