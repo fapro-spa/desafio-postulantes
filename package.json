@@ -1,0 +1,25 @@
+{
+  "name": "desafio-postulantes",
+  "version": "1.0.0",
+  "description": "Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andlf07/desafio-postulantes.git"
+  },
+  "keywords": [],
+  "author": "Luis Andrade <fersorc12@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andlf07/desafio-postulantes/issues"
+  },
+  "homepage": "https://github.com/andlf07/desafio-postulantes#readme",
+  "dependencies": {
+    "puppeteer": "^13.6.0"
+  },
+  "type": "module"
+}
