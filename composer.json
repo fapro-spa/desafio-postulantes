@@ -1,0 +1,7 @@
+{
+    "require": {
+        "nesk/puphpeteer": "^2.0",
+        "nesk/rialto": "^1.4",
+        "kub-at/php-simple-html-dom-parser": "^1.9"
+    }
+}
