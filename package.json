@@ -1,0 +1,39 @@
+{
+  "name": "fapro",
+  "version": "1.0.0",
+  "description": "Paola Brito postulación Fapro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src -d dist",
+    "dev": "./node_modules/.bin/nodemon --exec ./node_modules/.bin/babel-node src/index.js",
+    "start": "./node_modules/.bin/babel src -d dist && node dist/index.js",
+    "clean": "rimraf dist"
+  },
+  "author": "Paola Brito",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "express": "^4.17.3",
+    "puppeteer": "^13.6.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ]
+    ]
+  }
+}
