@@ -1,0 +1,5 @@
+El scrap de la página solicitada fue realizado con la libreria puppeteer con
+Nodejs, por lo que es necesario contar con un navegador de Google Chrome.
+Estando sobre la ruta del archivo hacer npm i para instalar las dependencias.
+Luego con npm start y accediendo al localhost 3001 desde el navegador, o alguna
+aplicación como postman, se puede acceder a la información requerida.
