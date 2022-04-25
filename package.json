@@ -1,0 +1,24 @@
+{
+  "name": "desafio-fapro",
+  "version": "1.0.0",
+  "description": "Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ger06/desafio-postulantes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ger06/desafio-postulantes/issues"
+  },
+  "homepage": "https://github.com/Ger06/desafio-postulantes#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "puppeteer": "^13.6.0"
+  }
+}
