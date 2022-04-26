@@ -4,6 +4,7 @@ from flask import Flask, jsonify
 import os
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 @app.route('/')
 def index():
@@ -25,7 +26,6 @@ def index():
             for i in range(len(tr)):            
                 ob[th[i]] = tr[i]
         data.append(ob)
-    print(data)
     return jsonify(data)
 
 if __name__ == '__main__':
