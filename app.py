@@ -6,6 +6,7 @@ import os
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
+
 @app.route('/')
 def index():
     chrome_options = webdriver.ChromeOptions()
@@ -23,7 +24,7 @@ def index():
     for tr in table_data:
         ob = {}
         if len(tr) > 0:
-            for i in range(len(tr)):            
+            for i in range(len(tr) < 2):            
                 ob[th[i]] = tr[i]
         data.append(ob)
     return jsonify(data)
