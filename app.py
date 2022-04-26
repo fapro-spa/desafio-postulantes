@@ -19,7 +19,6 @@ def index():
     driver.get('https://www.sii.cl/servicios_online/1047-nomina_inst_financieras-1714.html')
     soup = BeautifulSoup(driver.page_source, 'html.parser')
     table_data = [[cell.text for cell in row("td")] for row in soup("tr")]
-    print(soup("table"))
     th = [cell.text for cell in soup("th")]
     data = []
     for tr in table_data[1]:
