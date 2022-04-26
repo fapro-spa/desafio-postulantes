@@ -22,7 +22,7 @@ def index():
     print(table_data)
     th = [cell.text for cell in soup("th")]
     data = []
-    for tr in table_data:
+    for tr in table_data[0]:
         ob = {}
         if len(tr) > 0:
             for i in range(len(tr)):            
