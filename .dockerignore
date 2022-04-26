@@ -1,13 +1,6 @@
 .DS_Store
 .git
-.nyc_output
 .vscode
 /cert
-/db
-/node_modules
-/coverage
 README.md
-sonar-project.properties
 cache
-sonar*
-.scannerwork

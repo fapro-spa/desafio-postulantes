@@ -46,11 +46,12 @@ def getURL():
     # Defining of the dataframe
     df = pd.DataFrame(datos, columns = cabecera)
 
-    print(df.head())
     driver.close()
     return df
 
 if __name__ == "__main__":
     print("Init programa")
     salida = getURL()
-    print("fin programa")
+    salida.to_csv('/app/resultado/out.csv',index=False)
+    salida.to_json('/app/resultado/json.txt')
+    print("Fin Programa")

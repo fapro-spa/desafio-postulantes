@@ -1,8 +1,11 @@
 version: '3'
 services:
   node:
-    restart: always
     build: .
+    command: python main.py
     env_file:
-      - ./.env
+      - ./.env 
+    volumes:
+      - ./resultado/:/app/resultado
 
+      
