@@ -1,0 +1,8 @@
+Para ejecutar se debe instalar Docker 20.10.14.
+Luego realizar un git clone del repositorio y luego ejectura con el siguiente comando:
+
+>> git clone https://github.com/andresroyarce/desafio-postulantes
+>> cd desafio-postulantes
+>> sudo docker-compose up
+
+Con esto se crearán dos archivos de salida en la carpeta './resultados', llamados 'out.csv' y 'json.txt'
