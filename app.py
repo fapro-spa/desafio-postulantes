@@ -21,7 +21,7 @@ def index():
     table_data = [[cell.text for cell in row("td")] for row in soup("tr")]
     th = [cell.text for cell in soup("th")]
     data = []
-    for tr in table_data[1]:
+    for tr in table_data:
         ob = {}
         if len(tr) > 0:
             for i in range(len(tr)):            
