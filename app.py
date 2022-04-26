@@ -1,4 +1,5 @@
 from selenium import webdriver
+from bs4 import BeautifulSoup
 import os
 
 chrome_options = webdriver.ChromeOptions()
@@ -9,4 +10,14 @@ chrome_options.add_argument("--no-sandbox")
 driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
 
 driver.get('https://www.sii.cl/servicios_online/1047-nomina_inst_financieras-1714.html')
-print(driver.page_source)
+soup = BeautifulSoup(driver.page_source, 'html.parser')
+table_data = [[cell.text for cell in row("td")] for row in soup("tr")]
+th = [cell.text for cell in soup("th")]
+data = []
+for tr in table_data:
+    ob = {}
+    if len(tr) > 0:
+        for i in range(len(tr)):            
+            ob[th[i]] = tr[i]
+    data.append(ob)
+print(data)
