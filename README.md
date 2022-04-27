@@ -6,7 +6,9 @@
   - ```npm start```
 - Correr tests:
   - ```npm test```
-
+- Testear endpoint:
+  - localhost:3000/
+  
 
 
 
