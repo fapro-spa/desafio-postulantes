@@ -1,3 +1,20 @@
+
+## Ejecucion
+
+- Correr api:
+  - ```npm install```
+  - ```npm start```
+- Correr tests:
+  - ```npm test```
+- Testear endpoint:
+  - localhost:3000/
+  
+
+
+
+
+
+
 # Desafio Postulantes
 
 Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.
