@@ -1,0 +1,26 @@
+{
+  "name": "desafio-postulantes",
+  "version": "1.0.0",
+  "description": "Con el fin de seleccionar a nuestros 2 developers, tenemos el siguente desafio.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estanip/desafio-postulantes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estanip/desafio-postulantes/issues"
+  },
+  "homepage": "https://github.com/Estanip/desafio-postulantes#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.6.0"
+  }
+}
