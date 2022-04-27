@@ -15,3 +15,26 @@ El JSON de respuesta puede venir en el formato que estimes conveniente.
   - Script para el caso particular
 - Lenguaje: El que más te guste
 - Plazo de Entrega: Indefinido, iremos entrevistando a los que van terminando primero.
+
+# Instalación
+
+Se debe de tener instalado Python versión mayor a 3
+
+Se debe clonar el repositorio, una vez descargado se debe crear un entorno virtual en la máquina local, para ello debe abrir la consola cmd ubicarse en la carpeta ejecutar 
+ 
+> py -m venv "nombre del entorno"
+
+Activar entorno Virtual:
+
+Si se encuentra en el sistema operativo Windows sería el siguiente:
+
+nombredelentorno\Scripts\activate
+
+Una vez activado el entorno virtual se procede a instalar los paquetes necesarios para la ejecución del script
+
+> pip install - r requirements.txt
+
+Por último se ejecuta el script con el siguiente comnando:
+> py scraping_sii.py
+
+Se debe esperar unos segundos hasta que se ejecute la prueba automatizada y luego dirigirse a la carpeta y abrir el archivo DataSii.json
