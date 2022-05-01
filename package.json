@@ -1,0 +1,19 @@
+{
+    "name": "turnosweb",
+    "description": "turn aplication",
+    "version": "1.0.0",
+    "engines": {
+        "node": "12.11.1"
+    },
+    "dependencies": {
+        "express.js": "^1.0.0",
+        "puppeteer": "^13.7.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
